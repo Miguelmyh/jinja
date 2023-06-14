@@ -1,0 +1,59 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 30rem;
+}
+h1 {
+  text-align: center;
+}
+form {
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  font-size: 20px;
+  font-weight: 800;
+  width: 25rem;
+}
+
+#own_story {
+  display: inline-block;
+  border: none;
+  overflow: visible;
+  width: 100%;
+}
+
+#user_story {
+  border: none;
+  border-bottom: 2px solid black;
+  overflow: visible;
+}
+
+#user_story:focus {
+  outline: none;
+  width: 80%;
+}
+#btn {
+  width: 60px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  padding: 14px 16px;
+  font-size: 17px;
+  float: left;
+  text-align: center;
+  font-weight: 800;
+}
+
+.navbar a:hover {
+  color: gray;
+  transition: color 0.1s;
+}
+.navbar {
+  overflow: hidden;
+  background-color: aliceblue;
+}
